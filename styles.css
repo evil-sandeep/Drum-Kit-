@@ -3,12 +3,17 @@ body {
   background-color: #283149;
 }
 
-h1 , h3 {
+h1  {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
 
+}
+h3{
+  font-size: 1.1rem;
+  color: #DBEDF3;
+ text-shadow: 3px 0 #aa583f;
 }
 
 footer {
