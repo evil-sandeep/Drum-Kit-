@@ -88,3 +88,12 @@ setTimeout(() => {
 }, 100);
 
 
+// Adding Blinking effect on Footer Section
+function blink() {
+    const heading = document.getElementById('blinking-heading');
+    heading.style.visibility = (heading.style.visibility === 'hidden') ? 'visible' : 'hidden';
+  }
+  
+  setInterval(blink, 650); 
+
+
